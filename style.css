@@ -1,0 +1,90 @@
+body, html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
+
+#centerImage {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%; /* Adjust the maximum width as needed */
+    max-height: 40%; /* Adjust the maximum height as needed */
+}
+
+
+
+.container {
+    text-align: center;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.shreya {
+    font-family: 'Pacifico', cursive;
+    color: #e74c3c;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#yesButton {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+#noButton {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+#thanksText {
+    color: #28a745;
+    font-size: 24px;
+}
+
+.hidden {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .shreya {
+        font-size: 18px;
+    }
+}
+
+
+@media only screen and (max-width: 10000px) {
+    .buttons {
+        flex-direction: column; /* Display buttons vertically */
+    }
+
+    button {
+        margin: 10px 0; /* Add margin between the buttons */
+        display: block; /* Display buttons as block elements */
+    }
+
+    #thanksText {
+        font-size: 18px; /* Adjust font size for smaller screens */
+    }
+}
