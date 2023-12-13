@@ -80,7 +80,7 @@ button {
     }
 
     button {
-        margin: 10px 0; /* Add margin between the buttons */
+        margin: 50px 0; /* Add margin between the buttons */
         display: block; /* Display buttons as block elements */
     }
 
